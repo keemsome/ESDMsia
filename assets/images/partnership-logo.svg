@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background rectangle -->
+    <rect width="200" height="60" rx="5" fill="#009688"/>
+    
+    <!-- UNESCO Text -->
+    <text x="10" y="25" font-family="Arial" font-size="14" fill="white">UNESCO</text>
+    
+    <!-- Main Text -->
+    <text x="10" y="45" font-family="Arial" font-size="12" fill="white">Greening Education Partnership</text>
+    
+    <!-- Leaf Symbol -->
+    <path d="M170 20 C180 10, 190 20, 180 30 C170 40, 160 30, 170 20" fill="#4CAF50"/>
+    <path d="M175 25 C180 20, 185 25, 180 30 C175 35, 170 30, 175 25" fill="#81C784"/>
+</svg>

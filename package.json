@@ -1,0 +1,11 @@
+{
+  "name": "alliance-esd-malaysia",
+  "version": "1.0.0",
+  "description": "Website for Alliance ESD Malaysia",
+  "scripts": {
+    "build": "echo 'No build step required for this project'",
+    "deploy": "echo 'Deploy to GitHub Pages not configured'"
+  },
+  "devDependencies": {
+  }
+}
