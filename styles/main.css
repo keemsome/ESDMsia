@@ -555,12 +555,12 @@ footer a {
 /* Small Mobile Devices */
 @media (max-width: 480px) {
     body {
-        padding-top: 48px;
+        padding-top: 60px;
     }
 
     header {
         padding: 0;
-        height: 48px;
+        height: 60px;
     }
 
     header nav {
