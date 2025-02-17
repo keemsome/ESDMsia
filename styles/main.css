@@ -561,7 +561,12 @@ footer a {
     }
 
     .nav-brand {
-        font-size: 1.3rem;
+        font-size: 1.17rem;
+        text-align: left;
+    }
+
+    .nav-brand a {
+        justify-content: flex-start;
     }
 
     .hero h1 {
