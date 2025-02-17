@@ -20,7 +20,7 @@ h1, h2, h3, .nav-brand {
 /* Header Styles */
 header {
     background: #0A1F2F;
-    padding: 0.75rem;
+    padding: 0.75rem 0;
     position: fixed;
     width: 100%;
     top: 0;
@@ -33,7 +33,7 @@ header nav {
     align-items: center;
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 1.25rem;
+    padding: 0 1rem;
 }
 
 .nav-brand {
@@ -333,8 +333,9 @@ footer a {
     }
 
     header nav {
-        flex-direction: column;
+        flex-direction: row;
         padding: 0;
+        justify-content: flex-start;
     }
 
     header nav ul {
@@ -385,10 +386,12 @@ footer a {
     .nav-brand {
         text-align: left;
         width: auto;
+        margin-right: auto;
     }
 
     .nav-brand a {
         justify-content: flex-start;
+        padding-left: 0;
     }
 
     /* Hero Section */
@@ -548,7 +551,7 @@ footer a {
     }
 
     header {
-        padding: 0.6rem;
+        padding: 0.6rem 0;
     }
 
     header nav {
