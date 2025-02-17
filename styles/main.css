@@ -324,8 +324,14 @@ footer a {
 /* Responsive Design */
 @media (max-width: 768px) {
     /* Header & Navigation */
+    body {
+        padding-top: 48px;
+    }
+
     header {
         position: fixed;
+        padding: 0;
+        height: 48px;
     }
 
     .menu-toggle {
@@ -334,8 +340,10 @@ footer a {
 
     header nav {
         flex-direction: row;
-        padding: 0;
+        padding: 0 1rem;
         justify-content: flex-start;
+        height: 100%;
+        align-items: center;
     }
 
     header nav ul {
@@ -547,15 +555,18 @@ footer a {
 /* Small Mobile Devices */
 @media (max-width: 480px) {
     body {
-        padding-top: 60px;
+        padding-top: 48px;
     }
 
     header {
-        padding: 0.6rem 0;
+        padding: 0;
+        height: 48px;
     }
 
     header nav {
         padding: 0 0.6rem;
+        height: 100%;
+        align-items: center;
     }
 
     .logo {
