@@ -5,11 +5,21 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+    width: 100%;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
     color: #2D3436;
     padding-top: 70px;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
 }
 
 h1, h2, h3, .nav-brand {
@@ -20,11 +30,29 @@ h1, h2, h3, .nav-brand {
 /* Header Styles */
 header {
     background: #0A1F2F;
-    padding: 0.75rem 0;
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.header-wrapper {
+    padding: 0.75rem 0;
+    width: 100%;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 header nav {
@@ -561,12 +589,24 @@ footer a {
     header {
         padding: 0;
         height: 60px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-perspective: 1000;
+        perspective: 1000;
     }
 
     header nav {
         padding: 0 0.6rem;
         height: 100%;
         align-items: center;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
     }
 
     .logo {
